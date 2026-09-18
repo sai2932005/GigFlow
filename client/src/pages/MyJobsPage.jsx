@@ -22,7 +22,7 @@ const MyJobsPage = ()=>{
                 setError("Failed to load jobs");
             }finally{
                 setLoading(false);
-                console.log(jobs);
+               
             
         }
         }

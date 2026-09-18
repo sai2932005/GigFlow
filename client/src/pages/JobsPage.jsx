@@ -15,8 +15,7 @@ const JobsPage =()=>{
         const fetchJobs = async()=>{
             try{
                 const res = await getJobs();
-                console.log("full response" , res);
-                console.log("jobs data", res.data.jobs) ;
+                
                 setJobs(res.data.jobs) ;
 
             }catch(err){

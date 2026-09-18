@@ -54,10 +54,9 @@ const JobDetailPage = ()=>{
 
             }catch(err){
                 console.log(err);
+                setError(err) ;
             }
-            finally{
-                console.log(applications)
-            }
+            
         }
     fetchApplications();
 

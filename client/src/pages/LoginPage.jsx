@@ -26,7 +26,7 @@ const LoginPage =()=>{
         try{
             const res= await loginUser({email,password});
             login(res.data.user,res.data.token) ;
-            console.log("Full login response:", res.data);
+            
             navigate("/jobs" ,{replace:true});
 
         }catch(err){

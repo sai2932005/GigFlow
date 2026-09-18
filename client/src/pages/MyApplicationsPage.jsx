@@ -16,7 +16,7 @@ const MyApplicationsPage =()=>{
             const fetchMyApplications = async()=>{
                 try{
                 const res = await getMyApplications();
-                console.log("response :",res)
+                
                 setApplications(res.data);
 
             }
