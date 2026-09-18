@@ -1,0 +1,131 @@
+.profile-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.profile-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.profile-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.profile-view-row {
+  margin-bottom: 14px;
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+.profile-view-label {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.profile-edit-btn,
+.profile-submit-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+
+.profile-edit-btn:hover,
+.profile-submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.profile-submit-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.profile-cancel-btn {
+  background-color: transparent;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.profile-cancel-btn:hover {
+  background-color: #f9fafb;
+}
+
+.profile-field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.profile-label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.profile-input,
+.profile-textarea {
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  font-family: inherit;
+  outline: none;
+  color: #1f2937;
+}
+
+.profile-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.profile-input:focus,
+.profile-textarea:focus {
+  border-color: lightgray;
+}
+
+.profile-error {
+  color: #dc2626;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+
+.profile-stats {
+  margin: 16px 0 20px;
+  padding: 14px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+}
+
+.profile-stat {
+  font-size: 1.8rem;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.profile-stat-sub {
+  font-size: 1.6rem;
+  color: #6b7280;
+  margin-bottom: 9px;
+}

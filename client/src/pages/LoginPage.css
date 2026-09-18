@@ -1,0 +1,110 @@
+
+.AuthWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:85vh;
+    padding: 16px;
+}
+
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 360px;
+    
+    border-radius: 11px;
+
+    background-color: white;
+  border: 1px solid #e5e7eb;
+}
+
+h2{
+    font-size: 2.2rem;
+    color:black;
+    margin-bottom: 19px;
+    margin-top:19px;
+
+}
+.auth-page-field{
+    display: flex;
+    flex-direction: column;
+     margin-bottom: 16px;
+}
+.auth-page-label{
+    color:#1f2937;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 7px;
+
+
+}
+.formEl{
+    padding:22px;
+
+}
+.auth-page-input,
+.auth-page-select {
+    padding: 10px 12px;
+    border-radius: 9px;
+    border: 1px solid #e5e7eb;
+    font-size: 1.4rem;
+    outline: none;
+
+}
+
+.loginBtn{
+    padding:11px;
+    border-radius:7px ;
+    margin:5px;
+    border:0;
+    width:100%;
+    margin-top:12px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color:white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    
+
+}
+.loginBtn:hover {
+  background-color: #1d4ed8;
+}
+
+.loginBtn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+.page-switch-text{
+    text-align: center;
+  font-size: 1.4rem;
+  margin-top: 8px;
+  color: #6b7280;
+  margin-bottom: 7px;
+}
+.page-switch-link{
+
+
+color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.auth-page-input:focus,
+.auth-page-select:focus {
+  border-color: lightblue;
+}
+
+
+@media (max-width:39rem){
+    .loginContainer{
+        max-width:240px;
+    }
+
+}

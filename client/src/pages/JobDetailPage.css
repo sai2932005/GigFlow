@@ -1,0 +1,229 @@
+
+.job-detail-container{
+    max-width:700px;
+    margin: 0 auto;
+    padding:16px 32px;
+
+}
+
+.job-detail-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+
+.job-detail-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+.job-detail-contact-box {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.job-detail-contact-text {
+  font-size: 1.4rem;
+  color: #1e3a8a;
+}
+.job-detail-status {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+
+.job-detail-status-open { background-color: #dcfce7; color: #16a34a; }
+.job-detail-status-assigned { background-color: #fef3c7; color: #d97706; }
+.job-detail-status-completed { background-color: #e5e7eb; color: #4b5563; }
+
+
+
+.job-detail-meta {
+  font-size: 1.5rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.job-detail-description {
+  font-size: 1.6rem;
+  color: #1f2937;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.job-detail-budget {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #16a34a;
+  margin-bottom: 24px;
+}
+
+.job-detail-section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+
+.job-detail-apply-form {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.job-detail-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-family: inherit;
+  outline: none;
+  resize: vertical;
+  margin-bottom: 12px;
+}
+
+.job-detail-textarea:focus {
+  border-color: #2563eb;
+}
+
+.job-detail-apply-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.job-detail-apply-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.job-detail-apply-btn:disabled{
+    cursor: not-allowed;
+    background-color: #9ca3af;
+}
+
+.job-detail-success-text {
+  color: #16a34a;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.job-detail-error-text {
+  color: #dc2626;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+
+
+.job-detail-application-card{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    margin-bottom: 15px;
+    border-radius:9px;
+    background-color: white;
+  border: 1px solid #e5e7eb;
+}
+
+.job-detail-applicant-name {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 7px;
+}
+
+
+.job-detail-applicant-email {
+  font-size: 1.4rem;
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.job-detail-applicant-detail {
+  font-size: 1.4rem;
+  color: #4b5563;
+  margin-bottom: 4px;
+}
+
+.job-detail-application-message {
+  font-size: 1.5rem;
+  color: #1f2937;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+}
+
+
+.job-detail-application-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+.job-detail-application-status {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6b7280;
+}
+.job-detail-info-card{
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.job-detail-accept-btn {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.job-detail-accept-btn:hover {
+  background-color: #15803d;
+}
+
+
+
+@media (max-width:20.5rem){
+  .job-detail-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 11px;
+  }
+  .job-detail-status {
+    padding: 0px;
+  }
+}

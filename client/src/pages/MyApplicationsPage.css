@@ -1,0 +1,60 @@
+
+.my-apps-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.my-apps-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+.my-apps-empty {
+  color: #6b7280;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.my-apps-card {
+  display: block;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+  text-decoration: none;
+}
+
+.my-apps-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.my-apps-job-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.my-apps-meta {
+  font-size: 1.3rem;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.my-apps-badge {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+.my-apps-badge-pending { background-color: #fef3c7; color: #d97706; }
+.my-apps-badge-accepted { background-color: #dcfce7; color: #16a34a; }
+.my-apps-badge-rejected { background-color: #fee2e2; color: #dc2626; }

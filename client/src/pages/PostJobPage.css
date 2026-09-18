@@ -1,0 +1,88 @@
+.post-job-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.post-job-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.post-job-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+.post-job-field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-job-label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.post-job-input,
+.post-job-textarea {
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  font-family: inherit;
+  outline: none;
+  color: #1f2937;
+}
+
+
+.post-job-textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+.post-job-input:focus,
+.post-job-textarea:focus {
+  border-color: lightgray;
+}
+
+
+.post-job-error {
+  color: #dc2626;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+.post-job-submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.post-job-submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.post-job-submit-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.post-job-denied {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #6b7280;
+  margin-top: 60px;
+}
